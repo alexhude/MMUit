@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FAF8AAFE1E3C9C3900B51113 /* MMUitUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAF8AAFF1E3C9C3900B51113 /* Build configuration list for PBXAggregateTarget "MMUitUniversal" */;
+			buildPhases = (
+				FAF8AB021E3C9C4E00B51113 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = MMUitUniversal;
+			productName = MMUitUniversal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8A6B0C791E3B06EC00497AAC /* libMMUit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62B8C41E2C7B6000C123B5 /* libMMUit.a */; };
+		8A6B0C7B1E3EF3F500497AAC /* VMAKit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B0C7A1E3EF3F500497AAC /* VMAKit.cpp */; };
+		8A6B0C7C1E3EF44B00497AAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAACB6C31E3B672D0045FB5B /* main.cpp */; };
+		8A6B0C7F1E498C4D00497AAC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6B0C7E1E498C4D00497AAC /* libstdc++.tbd */; };
+		FA548A301E4C7FD000C2DEF9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA548A2F1E4C7FD000C2DEF9 /* libc++.tbd */; };
+		FAF8AAD01E3C578100B51113 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FAF8AACF1E3C578100B51113 /* main.c */; };
+		FAF8AAD41E3C594800B51113 /* libMMUit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62B8C41E2C7B6000C123B5 /* libMMUit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A62B8C21E2C7B6000C123B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6B0C701E3B06D500497AAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FAF8AACB1E3C578100B51113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A374DE01F0C729D0051EC61 /* MMUConfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MMUConfig.hpp; path = VMAKit/MMUConfig.hpp; sourceTree = "<group>"; };
+		8A374DE21F0DAB9D0051EC61 /* MMUConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMUConfig.h; path = VMAKit/MMUConfig.h; sourceTree = "<group>"; };
+		8A374DE31F0DBAA70051EC61 /* TCR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCR.h; path = VMAKit/TCR.h; sourceTree = "<group>"; };
+		8A62B8C41E2C7B6000C123B5 /* libMMUit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMUit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A62B8C71E2C7B6000C123B5 /* MMUit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MMUit.hpp; sourceTree = "<group>"; };
+		8A62B8D11E2C7BD700C123B5 /* VMAKit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VMAKit.hpp; sourceTree = "<group>"; };
+		8A62B8D51E2C826A00C123B5 /* TTWalker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TTWalker.hpp; path = VMAKit/TTWalker.hpp; sourceTree = "<group>"; };
+		8A62B8D71E2C834F00C123B5 /* VMAPlatform.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = VMAPlatform.hpp; path = VMAKit/VMAPlatform.hpp; sourceTree = "<group>"; };
+		8A62B8D81E2D6E0A00C123B5 /* VMAKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMAKit.h; sourceTree = "<group>"; };
+		8A62B8D91E2D6E4800C123B5 /* MMUit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMUit.h; sourceTree = "<group>"; };
+		8A62B8DA1E2D9E5800C123B5 /* VirtualAddress.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = VirtualAddress.hpp; path = VMAKit/VirtualAddress.hpp; sourceTree = "<group>"; };
+		8A62B8DB1E2D9E6800C123B5 /* TTEntry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TTEntry.hpp; path = VMAKit/TTEntry.hpp; sourceTree = "<group>"; };
+		8A62B8DC1E2D9F2400C123B5 /* VMATypes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = VMATypes.hpp; path = VMAKit/VMATypes.hpp; sourceTree = "<group>"; };
+		8A6B0C6D1E3AEF2300497AAC /* Primitives.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Primitives.hpp; sourceTree = "<group>"; };
+		8A6B0C721E3B06D500497AAC /* MMUitTestCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MMUitTestCPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6B0C7A1E3EF3F500497AAC /* VMAKit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMAKit.cpp; path = VMAKit/VMAKit.cpp; sourceTree = "<group>"; };
+		8A6B0C7D1E3FF24B00497AAC /* PageRelocator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PageRelocator.hpp; path = VMAKit/PageRelocator.hpp; sourceTree = "<group>"; };
+		8A6B0C7E1E498C4D00497AAC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		8ACA01AF1F0B4BD50058D097 /* TCR.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TCR.hpp; path = VMAKit/TCR.hpp; sourceTree = "<group>"; };
+		FA548A2F1E4C7FD000C2DEF9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		FA76FB2D1E3C4F29008DF49C /* TTWalker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TTWalker.h; path = VMAKit/TTWalker.h; sourceTree = "<group>"; };
+		FAACB6C11E3B5A8C0045FB5B /* VMATypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VMATypes.h; path = VMAKit/VMATypes.h; sourceTree = "<group>"; };
+		FAACB6C21E3B5B290045FB5B /* VMAPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VMAPlatform.h; path = VMAKit/VMAPlatform.h; sourceTree = "<group>"; };
+		FAACB6C31E3B672D0045FB5B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = MMUitTestCPP/main.cpp; sourceTree = SOURCE_ROOT; };
+		FAE379341E4346A9005E2E24 /* PageRelocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PageRelocator.h; path = VMAKit/PageRelocator.h; sourceTree = "<group>"; };
+		FAE379351E43520F005E2E24 /* TTEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TTEntry.h; path = VMAKit/TTEntry.h; sourceTree = "<group>"; };
+		FAF8AACD1E3C578100B51113 /* MMUitTestC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MMUitTestC; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF8AACF1E3C578100B51113 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FAF8AAD61E3C5C5000B51113 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/libc++abi.tbd"; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A62B8C11E2C7B6000C123B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6B0C6F1E3B06D500497AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6B0C791E3B06EC00497AAC /* libMMUit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF8AACA1E3C578100B51113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA548A301E4C7FD000C2DEF9 /* libc++.tbd in Frameworks */,
+				8A6B0C7F1E498C4D00497AAC /* libstdc++.tbd in Frameworks */,
+				FAF8AAD41E3C594800B51113 /* libMMUit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A62B8BB1E2C7B6000C123B5 = {
+			isa = PBXGroup;
+			children = (
+				8A62B8C61E2C7B6000C123B5 /* MMUit */,
+				8A6B0C731E3B06D500497AAC /* MMUitTestCPP */,
+				FAF8AACE1E3C578100B51113 /* MMUitTestC */,
+				8A62B8C51E2C7B6000C123B5 /* Products */,
+				FAF8AAD51E3C5C5000B51113 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A62B8C51E2C7B6000C123B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A62B8C41E2C7B6000C123B5 /* libMMUit.a */,
+				8A6B0C721E3B06D500497AAC /* MMUitTestCPP */,
+				FAF8AACD1E3C578100B51113 /* MMUitTestC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A62B8C61E2C7B6000C123B5 /* MMUit */ = {
+			isa = PBXGroup;
+			children = (
+				8A62B8D31E2C820000C123B5 /* VMAKit */,
+				8A6B0C6D1E3AEF2300497AAC /* Primitives.hpp */,
+				8A62B8D91E2D6E4800C123B5 /* MMUit.h */,
+				8A62B8C71E2C7B6000C123B5 /* MMUit.hpp */,
+				8A62B8D81E2D6E0A00C123B5 /* VMAKit.h */,
+				8A62B8D11E2C7BD700C123B5 /* VMAKit.hpp */,
+			);
+			path = MMUit;
+			sourceTree = "<group>";
+		};
+		8A62B8D31E2C820000C123B5 /* VMAKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAACB6C11E3B5A8C0045FB5B /* VMATypes.h */,
+				8A62B8DC1E2D9F2400C123B5 /* VMATypes.hpp */,
+				FAACB6C21E3B5B290045FB5B /* VMAPlatform.h */,
+				8A62B8D71E2C834F00C123B5 /* VMAPlatform.hpp */,
+				8A62B8DA1E2D9E5800C123B5 /* VirtualAddress.hpp */,
+				8A374DE31F0DBAA70051EC61 /* TCR.h */,
+				8ACA01AF1F0B4BD50058D097 /* TCR.hpp */,
+				8A374DE21F0DAB9D0051EC61 /* MMUConfig.h */,
+				8A374DE01F0C729D0051EC61 /* MMUConfig.hpp */,
+				FAE379351E43520F005E2E24 /* TTEntry.h */,
+				8A62B8DB1E2D9E6800C123B5 /* TTEntry.hpp */,
+				FA76FB2D1E3C4F29008DF49C /* TTWalker.h */,
+				8A62B8D51E2C826A00C123B5 /* TTWalker.hpp */,
+				FAE379341E4346A9005E2E24 /* PageRelocator.h */,
+				8A6B0C7D1E3FF24B00497AAC /* PageRelocator.hpp */,
+				8A6B0C7A1E3EF3F500497AAC /* VMAKit.cpp */,
+			);
+			name = VMAKit;
+			sourceTree = "<group>";
+		};
+		8A6B0C731E3B06D500497AAC /* MMUitTestCPP */ = {
+			isa = PBXGroup;
+			children = (
+				FAACB6C31E3B672D0045FB5B /* main.cpp */,
+			);
+			path = MMUitTestCPP;
+			sourceTree = "<group>";
+		};
+		FAF8AACE1E3C578100B51113 /* MMUitTestC */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8AACF1E3C578100B51113 /* main.c */,
+			);
+			path = MMUitTestC;
+			sourceTree = "<group>";
+		};
+		FAF8AAD51E3C5C5000B51113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA548A2F1E4C7FD000C2DEF9 /* libc++.tbd */,
+				8A6B0C7E1E498C4D00497AAC /* libstdc++.tbd */,
+				FAF8AAD61E3C5C5000B51113 /* libc++abi.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A62B8C31E2C7B6000C123B5 /* MMUit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A62B8CD1E2C7B6000C123B5 /* Build configuration list for PBXNativeTarget "MMUit" */;
+			buildPhases = (
+				8A62B8C01E2C7B6000C123B5 /* Sources */,
+				8A62B8C11E2C7B6000C123B5 /* Frameworks */,
+				8A62B8C21E2C7B6000C123B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMUit;
+			productName = MMUit;
+			productReference = 8A62B8C41E2C7B6000C123B5 /* libMMUit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A6B0C711E3B06D500497AAC /* MMUitTestCPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6B0C761E3B06D500497AAC /* Build configuration list for PBXNativeTarget "MMUitTestCPP" */;
+			buildPhases = (
+				8A6B0C6E1E3B06D500497AAC /* Sources */,
+				8A6B0C6F1E3B06D500497AAC /* Frameworks */,
+				8A6B0C701E3B06D500497AAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMUitTestCPP;
+			productName = MMUitTest;
+			productReference = 8A6B0C721E3B06D500497AAC /* MMUitTestCPP */;
+			productType = "com.apple.product-type.tool";
+		};
+		FAF8AACC1E3C578100B51113 /* MMUitTestC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF8AAD31E3C578100B51113 /* Build configuration list for PBXNativeTarget "MMUitTestC" */;
+			buildPhases = (
+				FAF8AAC91E3C578100B51113 /* Sources */,
+				FAF8AACA1E3C578100B51113 /* Frameworks */,
+				FAF8AACB1E3C578100B51113 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMUitTestC;
+			productName = MMUitTestC;
+			productReference = FAF8AACD1E3C578100B51113 /* MMUitTestC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A62B8BC1E2C7B6000C123B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = FriedAppleTeam;
+				TargetAttributes = {
+					8A62B8C31E2C7B6000C123B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ST2L7LXQ36;
+						ProvisioningStyle = Automatic;
+					};
+					8A6B0C711E3B06D500497AAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ST2L7LXQ36;
+						ProvisioningStyle = Automatic;
+					};
+					FAF8AACC1E3C578100B51113 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					FAF8AAFE1E3C9C3900B51113 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A62B8BF1E2C7B6000C123B5 /* Build configuration list for PBXProject "MMUit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 8A62B8BB1E2C7B6000C123B5;
+			productRefGroup = 8A62B8C51E2C7B6000C123B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A62B8C31E2C7B6000C123B5 /* MMUit */,
+				8A6B0C711E3B06D500497AAC /* MMUitTestCPP */,
+				FAF8AACC1E3C578100B51113 /* MMUitTestC */,
+				FAF8AAFE1E3C9C3900B51113 /* MMUitUniversal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAF8AB021E3C9C4E00B51113 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# export all environment variables\n# export\n\n# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Build Device and Simulator versions\nxcodebuild -target MMUit -configuration ${CONFIGURATION} -sdk macosx -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" PROJECT_TEMP_DIR=\"${PROJECT_TEMP_DIR}\"\nxcodebuild -target MMUit ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos -arch arm64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" PROJECT_TEMP_DIR=\"${PROJECT_TEMP_DIR}\"\n\n# remove empty folder created by xcodebuild\nrm -rf \"${PROJECT_DIR}/build\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\"\n\n# Copy lib\nmkdir -p ./lib\ncp \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" ./lib\n\n# Copy header files\nmkdir -p ./include\ncd ./MMUit; find . -name '*.hpp' -or -name '*.h' | cpio -updm ../include\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A62B8C01E2C7B6000C123B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6B0C7B1E3EF3F500497AAC /* VMAKit.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6B0C6E1E3B06D500497AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6B0C7C1E3EF44B00497AAC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF8AAC91E3C578100B51113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF8AAD01E3C578100B51113 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A62B8CB1E2C7B6000C123B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A62B8CC1E2C7B6000C123B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A62B8CE1E2C7B6000C123B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ST2L7LXQ36;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		8A62B8CF1E2C7B6000C123B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = ST2L7LXQ36;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		8A6B0C771E3B06D500497AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = ST2L7LXQ36;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A6B0C781E3B06D500497AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = ST2L7LXQ36;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF8AAD11E3C578100B51113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAF8AAD21E3C578100B51113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF8AB001E3C9C3900B51113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = debugging;
+			};
+			name = Debug;
+		};
+		FAF8AB011E3C9C3900B51113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A62B8BF1E2C7B6000C123B5 /* Build configuration list for PBXProject "MMUit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A62B8CB1E2C7B6000C123B5 /* Debug */,
+				8A62B8CC1E2C7B6000C123B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A62B8CD1E2C7B6000C123B5 /* Build configuration list for PBXNativeTarget "MMUit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A62B8CE1E2C7B6000C123B5 /* Debug */,
+				8A62B8CF1E2C7B6000C123B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6B0C761E3B06D500497AAC /* Build configuration list for PBXNativeTarget "MMUitTestCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6B0C771E3B06D500497AAC /* Debug */,
+				8A6B0C781E3B06D500497AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF8AAD31E3C578100B51113 /* Build configuration list for PBXNativeTarget "MMUitTestC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF8AAD11E3C578100B51113 /* Debug */,
+				FAF8AAD21E3C578100B51113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF8AAFF1E3C9C3900B51113 /* Build configuration list for PBXAggregateTarget "MMUitUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF8AB001E3C9C3900B51113 /* Debug */,
+				FAF8AB011E3C9C3900B51113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A62B8BC1E2C7B6000C123B5 /* Project object */;
+}
